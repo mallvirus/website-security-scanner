@@ -1,0 +1,32 @@
+{
+  "name": "website-security-scanner",
+  "version": "1.0.1",
+  "description": "Lightweight website security scanner (headers, TLS, ports, basic vulns)",
+  "main": "dist/index.cjs",
+  "exports": {
+    ".": {
+      "require": "./dist/api.cjs"
+    }
+  },
+  "bin": {
+    "website-security-scanner": "bin/cli.js",
+    "web-vulnerability-scanner": "bin/cli.js",
+    "web-scanner": "bin/cli.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "scan": "node src/index.js",
+    "prepack": "node scripts/build.js",
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
