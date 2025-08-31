@@ -2,6 +2,14 @@
   "name": "website-security-scanner",
   "version": "1.0.1",
   "description": "Lightweight website security scanner (headers, TLS, ports, basic vulns)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mallvirus/website-security-scanner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mallvirus/website-security-scanner/issues"
+  },
+  "homepage": "https://github.com/mallvirus/website-security-scanner#readme",
   "main": "dist/index.cjs",
   "exports": {
     ".": {
