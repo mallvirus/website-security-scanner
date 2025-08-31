@@ -1,6 +1,6 @@
 {
   "name": "website-security-scanner",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Lightweight website security scanner (headers, TLS, ports, basic vulns)",
   "repository": {
     "type": "git",
